@@ -1,0 +1,319 @@
+/* CSS for All */
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding: 1%;
+}
+.img-responsive {
+  width: 100%;
+}
+.img-curve {
+  border-radius: 15px;
+}
+
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-white {
+  color: white;
+}
+
+.text-purple {
+  color: #9c35bb;
+}
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+a {
+  color: #9c35bb;
+  text-decoration: none;
+}
+a:hover {
+  color: #9c35bb;
+}
+
+.btn {
+  padding: 1%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.btn-primary {
+  background-color: #9c35bb;
+  color: white;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  color: white;
+  background-color: #9c35bb;
+}
+h2 {
+  color: rgb(231, 57, 115);
+  font-size: 2rem;
+  margin-bottom: 2%;
+}
+h3 {
+  font-size: 1.5rem;
+}
+.float-container {
+  position: relative;
+}
+.float-text {
+  position: absolute;
+  bottom: 50px;
+  left: 40%;
+}
+fieldset {
+  border: 3px solid rgba(231, 57, 115, 0.7);
+  margin: 5%;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+legend {
+  color: white;
+  background-color: rgba(231, 57, 115, 0.7);
+}
+
+.error {
+  padding: 2%;
+  color: red;
+}
+.success {
+  padding: 2%;
+  color: green;
+}
+
+/* CSSS for navbar section */
+
+.logo {
+  width: 5%;
+  float: left;
+}
+.menu {
+  line-height: 60px;
+}
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 1%;
+  font-weight: bold;
+}
+
+/* CSS for Food Search Section */
+
+.food-search {
+  background-image: url(../proj_images/bg_images/bg4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 7% 0;
+}
+
+.food-search input[type="search"] {
+  width: 50%;
+  padding: 1%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.food-search2 {
+  background-image: url(../proj_images/bg_images/bg3b.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 7% 0;
+}
+
+.food-search2 input[type="search"] {
+  width: 50%;
+  padding: 1%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+/* CSS for Categories */
+.categories {
+  padding: 2% 0;
+}
+
+.box-3 {
+  width: 28%;
+  float: left;
+  margin: 2%;
+}
+
+/* CSS for Shipper */
+.shipper {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%; 
+}
+
+#shipper-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+#shipper-table td, #shipper th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#shipper-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#shipper-table tr:hover {background-color: rgba(231, 57, 115, 0.2);}
+
+#shipper-table th {
+  height: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgba(156, 53, 187, 0.8);
+  color: white;
+}
+
+#shipper-table td {
+  padding-left: 20px;
+  text-align: left;
+}
+
+/* CSS for Contact */
+.contact {
+  padding: 4% 0;
+  background-color: rgba(231, 57, 115, 0.7);
+}
+.contact-box {
+  width: 43%;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+  text-align: center;
+}
+
+/* CSS for Food Menu */
+.food-menu {
+  background-color: #ececec;
+  padding: 4% 0;
+}
+.food-menu-box {
+  width: 43%;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.food-menu-img {
+  width: 20%;
+  float: left;
+}
+
+.food-menu-desc {
+  width: 70%;
+  float: left;
+  margin-left: 8%;
+}
+
+.food-price {
+  font-size: 1.2rem;
+  margin: 2% 0;
+}
+.food-detail {
+  font-size: 1rem;
+  color: #747d8c;
+}
+
+/* for Order Section */
+.order {
+  width: 50%;
+  margin: 0 auto;
+}
+.input-responsive {
+  width: 96%;
+  padding: 1%;
+  margin-bottom: 3%;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.order-label {
+  margin-bottom: 1%;
+  font-weight: bold;
+}
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 80%;
+    float: none;
+    margin: 1% auto;
+  }
+
+  .menu ul {
+    text-align: center;
+  }
+
+  .food-search input[type="search"] {
+    width: 90%;
+    padding: 2%;
+    margin-bottom: 3%;
+  }
+
+  .btn {
+    width: 91%;
+    padding: 2%;
+  }
+
+  .food-search {
+    padding: 10% 0;
+  }
+
+  .categories {
+    padding: 20% 0;
+  }
+  h2 {
+    margin-bottom: 10%;
+  }
+  .box-3 {
+    width: 100%;
+    margin: 4% auto;
+  }
+
+  .food-menu {
+    padding: 20% 0;
+  }
+
+  .food-menu-box {
+    width: 90%;
+    padding: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .order {
+    width: 100%;
+  }
+}
